@@ -897,7 +897,7 @@ input[type='checkbox'] {
 /*     07. Services     */
 /************************/
 .cards-2 {
-	padding-top: 4.625rem;	
+	padding-top: 1.625rem;	
 	padding-bottom: 1.25rem;	
 	background-color: #fbfbfb;
 }
@@ -1314,7 +1314,7 @@ input[type='checkbox'] {
 /************************/
 .filter {
 	padding-top: 2.5rem;
-	padding-bottom: 5rem;
+	padding-bottom: 7rem;
 }
 
 .filter .section-title {
@@ -1711,10 +1711,10 @@ input[type='checkbox'] {
 /*     17. Footer     */
 /**********************/
 .footer {
-	align-content: center;
-	padding-left: 0.25rem;
-	padding-top: 1rem;
+    padding-top: 1.12rem;
+	padding-bottom: 0.5rem;
 	background-color: #113448;
+	text-align: center;
 }
 
 .footer .text-container {
@@ -1723,6 +1723,7 @@ input[type='checkbox'] {
 
 .footer h4 {
 	text-align: center;
+	padding-bottom: 1rem;
 	padding-right: 5rem;
 	padding-left: 4rem;
 	margin-bottom: 0.75rem;
