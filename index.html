@@ -24,7 +24,7 @@
    <!-- Google web font 
    ================================================== -->
    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-
+   <link rel="icon" href="images/flyhoog.png">
 </head>
 
 <body>
@@ -33,29 +33,27 @@
    <!-- Preloader section
 ================================================== -->
    <div class="preloader">
-
-      <div class="sk-spinner sk-spinner-pulse"></div>
-
+      <img class="flyhoog" src="images/fly.gif" alt="Flyhoog Gif">
    </div>
 
 
    <!-- Navigation section
 ================================================== -->
-   <div class="nav-container">
-      <nav class="nav-inner navbar-fixed-top">
+   <div class="nav-container navbar-fixed-top">
+      <nav class="nav-inner">
 
          <div class="navbar">
             <div class="container">
                <div class="row">
 
-                  <div class="brand">
-                     <a href="index.html">FLYHOOG</a>
+                  <div class="navbar-brand">
+                     <a class="logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a>
                   </div>
 
                   <div class="navicon">
                      <div class="menu-container">
 
-                        <div class="circle dark inline">
+                        <div class="circle white inline">
                            <i class="icon ion-navicon"></i>
                         </div>
 
@@ -64,9 +62,9 @@
                            <div class="intro-inner">
                               <ul id="nav-menu">
                                  <li><a href="index.html">Home</a></li>
-                                 <li><a href="about.html">About</a></li>
-                                 <li><a href="blog.html">Blog</a></li>
-                                 <li><a href="contact.html">Contact</a></li>
+                                 <li><a href="#portfolio">Portfolio</a></li>
+                                 <li><a href="#services">Services</a></li>
+                                 <li><a href="#contact">About</a></li>
                               </ul>
                            </div>
                         </div>
@@ -89,17 +87,20 @@
          <div class="row">
 
             <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-               <div class="header-thumb">
-                  <h1 class="wow fadeIn" data-wow-delay="0.3s">Flyhoog</h1>
-                  <h3 class="wow fadeInUp" data-wow-delay="0.6s">Web Designs</h3>
-                  <div>
-                     <a href="https://wa.me/message/QYFFDJSGPNN3I1" class="btn btn-success wow fadeInUp"
-                        data-wow-delay="0.6s"><i class="fa fa-whatsapp"></i> Whatsapp</a>
-                  </div>
+               <div class="text-container wow fadeInDown" data-wow-delay="1s">
+                  <h1>GRAPHIC <span id="js-rotating">DESIGNS, SERVICES, SOLUTIONS</span></h1>
+                  <h5>Inspired by this world to provide the best contents</h5>
                </div>
+               <a href="https://wa.me/message/QYFFDJSGPNN3I1" class="btn whatsapp wow fadeInLeft"
+                  data-wow-delay="1.3s"><i class="fa fa-whatsapp"></i> Whatsapp</a> &nbsp; <a
+                  class="btn resume wow fadeInRight" data-wow-delay="1.3s" href="#" download><i class="fa fa-file"></i>
+                  My
+                  Resume</a>
             </div>
-
          </div>
+      </div>
+
+      </div>
       </div>
    </section>
 
@@ -107,30 +108,42 @@
    <!-- Portfolio section
 ================================================== -->
    <section id="portfolio">
-      <div class="container">
+      <div class="container wow fadeInDown" data-wow-delay="0.6s">
          <div class="row">
 
             <div class="col-xl-12">
 
                <!-- iso section -->
-               <div class="iso-section wow fadeInUp" data-wow-delay="0.3s">
+               <div class="iso-section">
 
                   <ul class="filter-wrapper clearfix">
                      <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                     <li><a href="#" class="opc-main-bg" data-filter=".graphic">Poster</a></li>
-                     <li><a href="#" class="opc-main-bg" data-filter=".template">Logo</a></li>
+                     <li><a href="#" class="opc-main-bg" data-filter=".poster">Poster</a></li>
+                     <li><a href="#" class="opc-main-bg" data-filter=".logo">Logo</a></li>
                      <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
-                     <li><a href="#" class="opc-main-bg" data-filter=".branding">Vector art</a></li>
+                     <li><a href="#" class="opc-main-bg" data-filter=".vector">Vector art</a></li>
                   </ul>
 
                   <!-- iso box section -->
-                  <div class="iso-box-section wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="iso-box-section wow fadeInLeft" data-wow-delay="0.7s">
                      <div class="iso-box-wrapper col4-iso-box">
 
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.3s">
-                              <a href="images/portfolio-img1.jpg" class="image-popup">
-                                 <img src="images/portfolio-img1.jpg" class="img-responsive" alt="work">
+                        <div class="iso-box vector col-xl-3 col-md-3 col-sm-3 col-xs-6">
+                           <div class="portfolio-thumb wow fadeInLeft" data-wow-delay="0.7s">
+                              <a href="images/project-1.jpg" class="image-popup">
+                                 <img src="images/project-1.jpg" class="img-responsive" alt="work">
+                                 <div class="portfolio-overlay">
+                                    <div class="portfolio-item">
+                                       <h2>Vector ART</h2>
+                                    </div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="iso-box logo photoshop col-xl-3 col-md-3 col-sm-3 col-xs-6">
+                           <div class="portfolio-thumb wow fadeInLeft" data-wow-delay="0.7s">
+                              <a href="images/project-2.jpg" class="image-popup">
+                                 <img src="images/project-2.jpg" class="img-responsive" alt="work">
                                  <div class="portfolio-overlay">
                                     <div class="portfolio-item">
                                        <h2>Project One</h2>
@@ -139,10 +152,10 @@
                               </a>
                            </div>
                         </div>
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <a href="images/portfolio-img1.jpg" class="image-popup">
-                                 <img src="images/portfolio-img1.jpg" class="img-responsive" alt="work">
+                        <div class="iso-box logo photoshop col-xl-3 col-md-3 col-sm-3 col-xs-6">
+                           <div class="portfolio-thumb wow fadeInLeft" data-wow-delay="0.7s">
+                              <a href="images/project-3.jpg" class="image-popup">
+                                 <img src="images/project-3.jpg" class="img-responsive" alt="work">
                                  <div class="portfolio-overlay">
                                     <div class="portfolio-item">
                                        <h2>Project One</h2>
@@ -151,10 +164,10 @@
                               </a>
                            </div>
                         </div>
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.9s">
-                              <a href="images/portfolio-img1.jpg" class="image-popup">
-                                 <img src="images/portfolio-img1.jpg" class="img-responsive" alt="work">
+                        <div class="iso-box logo photoshop col-xl-3 col-md-3 col-sm-3 col-xs-6">
+                           <div class="portfolio-thumb wow fadeInLeft" data-wow-delay="0.7s">
+                              <a href="images/project-4.jpg" class="image-popup">
+                                 <img src="images/project-4.jpg" class="img-responsive" alt="work">
                                  <div class="portfolio-overlay">
                                     <div class="portfolio-item">
                                        <h2>Project One</h2>
@@ -163,10 +176,10 @@
                               </a>
                            </div>
                         </div>
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.3s">
-                              <a href="images/portfolio-img1.jpg" class="image-popup">
-                                 <img src="images/portfolio-img1.jpg" class="img-responsive" alt="work">
+                        <div class="iso-box poster col-xl-3 col-md-3 col-sm-3 col-xs-6">
+                           <div class="portfolio-thumb wow fadeInLeft" data-wow-delay="0.7s">
+                              <a href="images/project-5.jpg" class="image-popup">
+                                 <img src="images/project-5.jpg" class="img-responsive" alt="work">
                                  <div class="portfolio-overlay">
                                     <div class="portfolio-item">
                                        <h2>Project One</h2>
@@ -175,10 +188,10 @@
                               </a>
                            </div>
                         </div>
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <a href="images/portfolio-img1.jpg" class="image-popup">
-                                 <img src="images/portfolio-img1.jpg" class="img-responsive" alt="work">
+                        <div class="iso-box poster col-xl-3 col-md-3 col-sm-3 col-xs-6">
+                           <div class="portfolio-thumb wow fadeInLeft" data-wow-delay="0.7s">
+                              <a href="images/project-6.jpg" class="image-popup">
+                                 <img src="images/project-6.jpg" class="img-responsive" alt="work">
                                  <div class="portfolio-overlay">
                                     <div class="portfolio-item">
                                        <h2>Project One</h2>
@@ -187,180 +200,91 @@
                               </a>
                            </div>
                         </div>
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.9s">
-                              <a href="images/portfolio-img1.jpg" class="image-popup">
-                                 <img src="images/portfolio-img1.jpg" class="img-responsive" alt="work">
-                                 <div class="portfolio-overlay">
-                                    <div class="portfolio-item">
-                                       <h2>Project One</h2>
-                                    </div>
-                                 </div>
-                              </a>
-                           </div>
-                        </div>
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.3s">
-                              <a href="images/portfolio-img1.jpg" class="image-popup">
-                                 <img src="images/portfolio-img1.jpg" class="img-responsive" alt="work">
-                                 <div class="portfolio-overlay">
-                                    <div class="portfolio-item">
-                                       <h2>Project One</h2>
-                                    </div>
-                                 </div>
-                              </a>
-                           </div>
-                        </div>
-
-                        <div class="iso-box graphic template col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <img src="images/portfolio-img2.jpg" class="img-responsive" alt="Portfolio">
-                              <div class="portfolio-overlay">
-                                 <div class="portfolio-item">
-                                    <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                    <h2>Project Two</h2>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
-                        <div class="iso-box template graphic col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.9s">
-                              <img src="images/portfolio-img3.jpg" class="img-responsive" alt="Portfolio">
-                              <div class="portfolio-overlay">
-                                 <div class="portfolio-item">
-                                    <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                    <h2>Project Three</h2>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
-                        <div class="iso-box graphic template col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.3s">
-                              <img src="images/portfolio-img4.jpg" class="img-responsive" alt="Portfolio">
-                              <div class="portfolio-overlay">
-                                 <div class="portfolio-item">
-                                    <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                    <h2>Project Four</h2>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <img src="images/portfolio-img5.jpg" class="img-responsive" alt="Portfolio">
-                              <div class="portfolio-overlay">
-                                 <div class="portfolio-item">
-                                    <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                    <h2>Project Five</h2>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
-                        <div class="iso-box photoshop branding col-xl-3 col-md-3 col-sm-3 col-xs-6">
-                           <div class="portfolio-thumb wow fadeInUp" data-wow-delay="0.9s">
-                              <img src="images/portfolio-img6.jpg" class="img-responsive" alt="Portfolio">
-                              <div class="portfolio-overlay">
-                                 <div class="portfolio-item">
-                                    <a href="single-project.html"><i class="fa fa-link"></i></a>
-                                    <h2>Project Six</h2>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
                      </div>
                   </div>
-
                </div>
-
             </div>
-
          </div>
       </div>
    </section>
 
-   <section id="blog">
+   <section id="services">
       <div class="container">
          <div class="row">
-            <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
-               <h1>Interdum et malesuada fames</h1>
-            </div>
-            <div class="wow fadeInUp col-xl-3 col-md-3 col-sm-3 col-xs-6" data-wow-delay="0.3s">
-               <div class="blog-thumb">
-                  <a href="single-post.html"><img src="images/blog-img6.jpg" class="img-responsive" alt="Blog"></a>
-                  <a href="single-post.html">
-                     <h1>Mountain</h1>
-                  </a>
-                  <div class="post-format">
-                     <span>By <a href="#">Linda</a></span>
-                     <span><i class="fa fa-date"></i> 31 May 2016, Tuesday</span>
+            <div class="col-md-4 text-center wow fadeInLeft" data-wow-delay="0.6">
+               <div class="services">
+                  <span class="icon">
+                     <i class="ion-cloud"></i>
+                  </span>
+                  <div class="desc">
+                     <h3><a href="#">Brand Identity</a></h3>
+                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
+                        provident. Odit ab aliquam dolor eius.</p>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                  <a href="single-post.html" class="btn btn-default">Read More</a>
                </div>
             </div>
-
-            <div class="wow fadeInUp col-xl-3 col-md-3 col-sm-3 col-xs-6" data-wow-delay="0.6s">
-               <div class="blog-thumb">
-                  <a href="single-post.html"><img src="images/blog-img7.jpg" class="img-responsive" alt="Blog"></a>
-                  <a href="single-post.html">
-                     <h1>Cloud</h1>
-                  </a>
-                  <div class="post-format">
-                     <span>By <a href="#">Bill Gates</a></span>
-                     <span><i class="fa fa-date"></i> 30 May 2016, Monday</span>
+            <div class="col-md-4 text-center wow fadeInLeft" data-wow-delay="0.6">
+               <div class="services">
+                  <span class="icon">
+                     <i class="ion-camera"></i>
+                  </span>
+                  <div class="desc">
+                     <h3><a href="#">Web Design &amp; UI</a></h3>
+                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
+                        provident. Odit ab aliquam dolor eius.</p>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                  <a href="single-post.html" class="btn btn-default">Details</a>
                </div>
             </div>
-
-            <div class="wow fadeInUp col-xl-3 col-md-3 col-sm-3 col-xs-6" data-wow-delay="0.9s">
-               <div class="blog-thumb">
-                  <a href="single-post.html"><img src="images/blog-img8.jpg" class="img-responsive" alt="Blog"></a>
-                  <a href="single-post.html">
-                     <h1>Blue Sky</h1>
-                  </a>
-                  <div class="post-format">
-                     <span>By <a href="#">Elon Musk</a></span>
-                     <span><i class="fa fa-date"></i> 29 May 2016, Sunday</span>
+            <div class="col-md-4 text-center wow fadeInLeft" data-wow-delay="0.6">
+               <div class="services">
+                  <span class="icon">
+                     <i class="ion-code-working"></i>
+                  </span>
+                  <div class="desc">
+                     <h3><a href="#">Web Development</a></h3>
+                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
+                        provident. Odit ab aliquam dolor eius.</p>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                  <a href="single-post.html" class="btn btn-default">Read More</a>
                </div>
             </div>
+         </div>
+      </div>
+   </section>
 
-            <div class="wow fadeInUp col-xl-3 col-md-3 col-sm-3 col-xs-6" data-wow-delay="1s">
-               <div class="blog-thumb">
-                  <a href="single-post.html"><img src="images/blog-img9.jpg" class="img-responsive" alt="Blog"></a>
-                  <a href="single-post.html">
-                     <h1>Forest</h1>
-                  </a>
-                  <div class="post-format">
-                     <span>By <a href="#">Jack Ma</a></span>
-                     <span><i class="fa fa-date"></i> 28 May 2016, Saturday</span>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                  <a href="single-post.html" class="btn btn-default">Details</a>
+   <section id="contact">
+      <div class="container wow fadeInLeft" data-wow-delay="0.6s">
+         <div class="row">
+            <div class="about wow fadeInUp text-center col-xl-6 col-md-6 col-sm-6" data-wow-delay="0.6s">
+               <img class="wow fadeInRight" data-wow-delay="0.6s" src="images/project-1.jpg">
+                  <h1>Interdum et malesuada fames</h1>
+                  <p>Sed quis laoreet purus, a luctus ligula. Suspendisse nec urna a dolor sodales venenatis. Donec
+                     et
+                     sem
+                     quam. Fusce faucibus neque sit amet arcu auctor tincidunt. Etiam feugiat nibh orci, quis
+                     sagittis
+                     velit pretium ac. Suspendisse egestas ex a dolor dictum gravida. Lorem ipsum dolor sit amet,
+                     consectetur adipiscing elit. Fusce sagittis urna id odio consequat fringilla.</p>
+                  <p>Integer eu rhoncus libero. Nulla dignissim laoreet eros quis interdum. Proin ut placerat dui,
+                     eget
+                     vehicula ipsum. Mauris id molestie eros. Vestibulum fringilla dui nunc, vitae euismod ligula
+                     consectetur eget. Sed accumsan, ipsum in scelerisque euismod, nisi quam placerat urna, ac
+                     porttitor
+                     augue sapien varius velit.</p>
+               </div>
+            <div class="col-xl-6 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="0.6s">
+               <h1>Let's work together!</h1>
+               <div class="contact-form">
+                  <form id="contact-form" method="post" action="https://formspree.io/f/xgerwvld">
+                     <input type="hidden" name="_subject" value="New mail from flyhoog portfolio!" />
+                     <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                     <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                     <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+                     <div class="contact-submit">
+                        <input type="submit" class="form-control submit" value="Send a message">
+                     </div>
+                  </form>
                </div>
             </div>
-
-            <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
-               <h1>Interdum et malesuada fames</h1>
-               <p>Sed quis laoreet purus, a luctus ligula. Suspendisse nec urna a dolor sodales venenatis. Donec et sem
-                  quam. Fusce faucibus neque sit amet arcu auctor tincidunt. Etiam feugiat nibh orci, quis sagittis
-                  velit pretium ac. Suspendisse egestas ex a dolor dictum gravida. Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Fusce sagittis urna id odio consequat fringilla.</p>
-               <p>Integer eu rhoncus libero. Nulla dignissim laoreet eros quis interdum. Proin ut placerat dui, eget
-                  vehicula ipsum. Mauris id molestie eros. Vestibulum fringilla dui nunc, vitae euismod ligula
-                  consectetur eget. Sed accumsan, ipsum in scelerisque euismod, nisi quam placerat urna, ac porttitor
-                  augue sapien varius velit.</p>
-            </div>
-
          </div>
       </div>
    </section>
@@ -371,18 +295,21 @@
    <footer>
       <div class="container">
          <div class="row">
-            <div class="col-md-12 col-sm-12">
-               <ul class="social-icon wow fadeInUp" data-wow-delay="0.6s">
-                  <li><a href="#" class="fa fa-facebook"></a></li>
-                  <li><a href="#" class="fa fa-twitter"></a></li>
-                  <li><a href="#" class="fa fa-instagram"></a></li>
+            <div class="col-xl-12">
+               <ul class="social-icon wow fadeInUp" data-wow-delay="1s">
                   <li><a href="#" class="fa fa-whatsapp"></a></li>
+                  <li><a href="#" class="fa fa-phone-square"></a></li>
+                  <li><a href="#" class="fa fa-instagram"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
                   <li><a href="#" class="fa fa-linkedin"></a></li>
                </ul>
             </div>
+            <div class="col-xl-12 col-md-12 col-sm-12">
+               <div class="copyright-text wow fadeInUp" data-wow-delay="1.3s">
+                  <p>Flyhoog portfolio :: designed by :: <a href="https://www.navaar.ml"> Navaar</a></p>
+               </div>
+            </div>
          </div>
-         <p class="wow fadeInUp" data-wow-delay="0.3s">flyhoog::Designed by <a href="https://navaar.ml/">navaar</a>
-         </p>
       </div>
    </footer>
 
@@ -396,6 +323,7 @@
    <script src="js/wow.min.js"></script>
    <script src="js/jquery.magnific-popup.min.js"></script>
    <script src="js/custom.js"></script>
+   <script src="js/morphext.min.js"></script>
 
 </body>
 
