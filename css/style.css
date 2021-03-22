@@ -354,9 +354,9 @@ a.icon {
   -ms-transform: scale( 1);
   -o-transform: scale( 1);
   transform: scale( 1);
-  -webkit-transition: 0.9s;
-  -o-transition: 0.9s;
-  transition: 0.9s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
   margin: 0;
 }
 
